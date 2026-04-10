@@ -4,7 +4,7 @@
 }
 
 .header {
-  border: 1px solid #000;
+  border: 1px s olid black;
   justify-content: space-between;
   display: flex;
 }
@@ -24,7 +24,36 @@
 }
 
 .nav-items > ul > li {
-  margin: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.search {
+  padding: 5px;
+}
+
+.res-card {
+  border: 1px solid #000;
+  width: 270px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.res-card:hover {
+  background-color: #e5e5e5;
+  border: 2px solid #000;
+}
+
+.res-image {
+  width: 100%;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.filter {
   padding: 10px;
 }
 /*# sourceMappingURL=re-react.61d3354a.css.map */
